@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vote">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="481" height="322"/>
+    </constraints>
+    <properties>
+      <background color="-2649"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="94766" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2649"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="98af6">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <grid id="9538f" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2649"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5723f" class="javax.swing.JButton" binding="buttonLogout">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-308"/>
+                  <borderPainted value="false"/>
+                  <font name="Courier 10 Pitch" size="18" style="0"/>
+                  <foreground color="-16250872"/>
+                  <text value="Logout"/>
+                </properties>
+              </component>
+              <component id="4a32f" class="javax.swing.JButton" binding="buttonHome">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-308"/>
+                  <borderPainted value="false"/>
+                  <font name="Courier 10 Pitch" size="18" style="0"/>
+                  <foreground color="-16250872"/>
+                  <text value="Logout"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="e3588" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2649"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="c8dbf">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-308"/>
+              <font name="Courier 10 Pitch" size="18" style="0"/>
+              <foreground color="-16250872"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <component id="eca2" class="javax.swing.JList" binding="options">
+                <constraints/>
+                <properties>
+                  <background color="-308"/>
+                  <font name="Courier 10 Pitch" size="18" style="0"/>
+                  <foreground color="-16250872"/>
+                  <model/>
+                  <selectionBackground color="-8227310"/>
+                  <selectionForeground color="-270"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="47457">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-308"/>
+              <font name="Courier 10 Pitch" size="18" style="0"/>
+              <foreground color="-16250872"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <component id="38528" class="javax.swing.JList" binding="count">
+                <constraints/>
+                <properties>
+                  <background color="-308"/>
+                  <dropMode value="ON"/>
+                  <enabled value="false"/>
+                  <font name="Courier 10 Pitch" size="18" style="0"/>
+                  <foreground color="-16777216"/>
+                  <model/>
+                  <selectionBackground color="-8227310"/>
+                  <selectionForeground color="-270"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="9b014" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier 10 Pitch" size="18" style="0"/>
+              <foreground color="-13027015"/>
+              <text value="Count"/>
+            </properties>
+          </component>
+          <component id="1fe0a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier 10 Pitch" size="18" style="0"/>
+              <foreground color="-13027015"/>
+              <text value="Options"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b4783" binding="Title" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="0" bottom="10" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2563"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="18923" class="javax.swing.JLabel" binding="title">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2563"/>
+              <font name="JetBrains Mono ExtraBold" size="18"/>
+              <foreground color="-16250872"/>
+              <text value="Title"/>
+            </properties>
+          </component>
+          <component id="d1d66" class="javax.swing.JTextPane" binding="description">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2563"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="e3396" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="368fb" class="javax.swing.JButton" binding="refreshButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2649"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="Courier 10 Pitch" size="18" style="0"/>
+          <foreground color="-16250872"/>
+          <icon value="public/icons8-circular-arrows-24.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
